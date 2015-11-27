@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{ABD33868-3238-445A-9B25-68332B4B6AED}</ProjectGuid>
+    <ProjectGuid>{6275E9C1-2733-49E5-9A86-4B11AD3FE201}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Hangman</RootNamespace>
   </PropertyGroup>
@@ -74,8 +74,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Hangman.cpp" />
-    <ClCompile Include="Words.cpp" />
+    <ClCompile Include="LoadingScreen.cpp" />
+    <ClCompile Include="Opening screen.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Ascii.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="HangmanMainMenu.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

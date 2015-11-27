@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hangman", "Hangman\Hangman.vcxproj", "{ABD33868-3238-445A-9B25-68332B4B6AED}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hangman", "Hangman\Hangman.vcxproj", "{6275E9C1-2733-49E5-9A86-4B11AD3FE201}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ABD33868-3238-445A-9B25-68332B4B6AED}.Debug|Win32.ActiveCfg = Debug|Win32
-		{ABD33868-3238-445A-9B25-68332B4B6AED}.Debug|Win32.Build.0 = Debug|Win32
-		{ABD33868-3238-445A-9B25-68332B4B6AED}.Release|Win32.ActiveCfg = Release|Win32
-		{ABD33868-3238-445A-9B25-68332B4B6AED}.Release|Win32.Build.0 = Release|Win32
+		{6275E9C1-2733-49E5-9A86-4B11AD3FE201}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6275E9C1-2733-49E5-9A86-4B11AD3FE201}.Debug|Win32.Build.0 = Debug|Win32
+		{6275E9C1-2733-49E5-9A86-4B11AD3FE201}.Release|Win32.ActiveCfg = Release|Win32
+		{6275E9C1-2733-49E5-9A86-4B11AD3FE201}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
